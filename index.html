@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockAuto | Auto Parts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topNavigation">
+    <div class="navCentered">
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="RockAuto Logo">
+            ROCK<span>AUTO</span>
+        </a>
+        <div class="navLinks">
+            <a href="index.html">Home</a>
+            <a href="#vehicle-selector">Find Parts</a>
+            <a href="#categories">Categories</a>
+            <a href="#part-search">Part Number Search</a>
+            <a href="signin.html">Account</a>
+        </div>
+    </div>
+</nav>
+
+<section class="homepgBanner">
+    <div class="homepgContents">
+        <p class="small-heading">AUTOMOTIVE PARTS & ACCESSORIES</p>
+        <h1>
+            Find the Right Part<br>
+            for Your Vehicle
+        </h1>
+
+        <p class="hero-description">
+            Search thousands of auto parts and find products
+            compatible with your vehicle.
+        </p>
+
+        <div class="searchBar">
+            <input type="text" placeholder="Search by part name, number, or keyword...">
+            <button type="button">Search</button>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="vehicle-selector">
+
+    <div class="sectionHeading">
+        <p class="sectionMarks">START HERE</p>
+        <h2>Select Your Vehicle</h2>
+        <p>Find parts that fit your specific vehicle.</p>
+    </div>
+
+    <div class="vehicleContainer">
+        <div class="vehicleDropdown">
+            <label>Year</label>
+            <select>
+                <option>Select Year</option>
+                <option>2026</option>
+                <option>2025</option>
+                <option>2024</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>   
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+            </select>
+        </div>
+
+        <div class="vehicleDropdown">
+            <label>Make</label>
+            <select>
+                <option>Select Make</option>
+                <option>Toyota</option>
+                <option>Honda</option>
+                <option>Ford</option>
+                <option>Hyundai</option>
+                <option>Mitsubishi</option>
+                <option>Mazda</option>
+                <option>Chevrolet</option>
+                <option>Kia</option>
+                <option>Nissan</option>
+            </select>
+        </div>
+
+        <div class="vehicleDropdown">
+            <label>Model</label>
+            <select>
+                <option>Select Model</option>
+                <option>Vios</option>
+                <option>Civic</option>
+                <option>Corolla</option>
+                <option>Ranger</option>
+                <option>Accent</option>
+                <option>Arata</option>
+                <option>Suburban</option>
+                <option>Carnival</option>
+                <option>GT-R</option>
+            </select>
+        </div>
+
+        <div class="vehicleDropdown">
+            <label>Engine</label>
+            <select>
+                <option>Select Engine</option>
+                <option>0.6L</option>
+                <option>0.8L</option>
+                <option>1.0L</option>
+                <option>1.2L</option>
+                <option>1.3L</option>
+                <option>1.5L</option>
+                <option>1.6L</option>
+                <option>2.0L</option>
+                <option>3.0L</option>
+                <option>3.5L</option>
+            </select>
+        </div>
+
+        <button type="button" class="buttonSearch">Find Parts</button>
+    </div>
+</section>
+
+<section class="section categories-section" id="categories">
+    <div class="sectionHeading">
+        <p class="sectionMarks">BROWSE OUR CATALOG</p>
+        <h2>What Are You Looking For?</h2>
+        <p>Explore parts by category.</p>
+    </div>
+
+    <div class="categoryGrid">
+        <div class="categoryCard">
+            <div class="categoryIcon">🔧</div>
+            <h3>Brake Parts</h3>
+            <p>Brake pads, rotors, calipers, and more.</p>
+            <a href="#">View Parts →</a>
+        </div>
+
+        <div class="categoryCard">
+            <div class="categoryIcon">⚙️</div>
+            <h3>Engine Parts</h3>
+            <p>Components for engine maintenance and repair.</p>
+            <a href="#">View Parts →</a>
+        </div>
+
+        <div class="categoryCard">
+            <div class="categoryIcon">🚗</div>
+            <h3>Suspension & Steering</h3>
+            <p>Shocks, struts, control arms, and more.</p>
+            <a href="#">View Parts →</a>
+        </div>
+
+        <div class="categoryCard">
+            <div class="categoryIcon">⚡</div>
+            <h3>Electrical</h3>
+            <p>Batteries, alternators, sensors, and wiring.</p>
+            <a href="#">View Parts →</a>
+        </div>
+
+        <div class="categoryCard">
+            <div class="categoryIcon">❄️</div>
+            <h3>Cooling System</h3>
+            <p>Radiators, water pumps, fans, and hoses.</p>
+            <a href="#">View Parts →</a>
+        </div>
+
+        <div class="categoryCard">
+            <div class="categoryIcon">🛢️</div>
+            <h3>Filters</h3>
+            <p>Oil, air, fuel, and cabin filters.</p>
+            <a href="#">View Parts →</a>
+        </div>
+
+        <div class="categoryCard">
+            <div class="categoryIcon">🔩</div>
+            <h3>Belts & Hoses</h3>
+            <p>Replacement belts, hoses, and related parts.</p>
+            <a href="#">View Parts →</a>
+        </div>
+
+        <div class="categoryCard">
+            <div class="categoryIcon">🚘</div>
+            <h3>Body & Exterior</h3>
+            <p>Mirrors, lights, handles, and exterior parts.</p>
+            <a href="#">View Parts →</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="part-search">
+    <div class="searchNumberBox">
+        <div>
+            <p class="sectionMarks">ALREADY KNOW WHAT YOU NEED?</p>
+            <h2>Search by Part Number</h2>
+            <p>Enter a known part number to find a specific product.</p>
+        </div>
+
+        <div class="part-search">
+            <input type="text" placeholder="Enter part number...">
+            <button type="button">Search</button>
+        </div>
+    </div>
+</section>
+
+<section class="quickaccessButtons">
+    <div class="quick-item">
+        <span>🚘</span>
+        <div>
+            <h3>Vehicle Parts</h3>
+            <p>Find compatible parts</p>
+        </div>
+    </div>
+
+    <div class="quick-item">
+        <span>📋</span>
+        <div>
+            <h3>Order Status</h3>
+            <p>Track your orders</p>
+        </div>
+    </div>
+
+    <a href="signin.html" class="quick-item">
+        <span>👤</span>
+        <div>
+            <h3>My Account</h3>
+            <p>Sign in or register</p>
+        </div>
+    </div>
+
+    <div class="quick-item">
+        <span>❓</span>
+        <div>
+            <h3>Help Center</h3>
+            <p>Get assistance</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="account">
+    <div class="sectionHeading">
+        <p class="sectionMarks">YOUR ACCOUNT</p>
+        <h2>Account</h2>
+        <p>Sign in to view your orders and manage your account.</p>
+    </div>
+    
+    <div class="loginBox">
+        <h3>Customer Account</h3>
+        <p>Sign in or create an account to manage your RockAuto purchases.</p>
+        <form action="signin.html">
+            <button type="submit">Sign In / Sign Up</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="footerContainer">
+        
+        <div class="footer-column">
+            <div class="footer-logo">
+                ROCK<span>AUTO</span>
+            </div>
+            <p>Auto Parts Made Easier. Find exact-fit parts for thousands of vehicles securely and quickly.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">Help Center & FAQ</a></li>
+                <li><a href="#">Track Order Status</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Shipping Information</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>About RockAuto</h3>
+            <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p class="copyright">© 2026 RockAuto Redesign Concept.</p>
+    </div>
+    
+</footer>
+
+</body>
+</html>

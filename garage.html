@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Garage | RockAuto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topNavigation">
+    <div class="navCentered">
+        <a href="home.html" class="logo">
+            <img src="images/logo.png" alt="RockAuto Logo">
+            ROCK<span>AUTO</span>
+        </a>
+        <div class="navLinks">
+            <a href="home.html">Home</a>
+            <a href="home.html#vehicle-selector">Find Parts</a>
+            <a href="home.html#categories">Categories</a>
+            <a href="home.html#part-search">Part Number Search</a>
+            <a href="cart.html" class="cartLinks">Cart</a>
+            <a href="garage.html">My Garage</a>
+            <a href="index.html">Sign Out</a>
+        </div>
+    </div>
+</nav>
+
+<section class="section">
+
+    <div class="sectionHeading">
+        <p class="sectionMarks">YOUR SAVED VEHICLES</p>
+        <h2>My Garage</h2>
+        <p>Manage your vehicles for faster part searching.</p>
+    </div>
+    
+    <div class="categoryGrid garageList">
+        <div class="categoryCard garageVehicleCard">
+            <div class="garageVehicleInfo">
+                <img src="images/vios2024.webp" alt="Vehicle Icon" class="garageVehicleIcon">
+                <h3>2024 Toyota Vios</h3>
+            </div>
+
+            <form action="shop-parts.html">
+                <button type="submit" class="loginButton btn-auto">Shop Parts</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="loginBox">
+        <h3>Add a New Vehicle</h3>
+        <p>Select your vehicle details to save it to your garage.</p>
+        <form action="garage.html">
+
+            <div class="vehicleDropdown dropdown-spacing">
+                <label>Year</label>
+                <select required>
+                    <option value="">Select Year</option>
+                    <option>2026</option>
+                    <option>2025</option>
+                    <option>2024</option>
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>   
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                </select>
+            </div>
+
+            <div class="vehicleDropdown dropdown-spacing">
+                <label>Make</label>
+                <select required>
+                    <option value="">Select Make</option>
+                    <option>Toyota</option>
+                    <option>Honda</option>
+                    <option>Ford</option>
+                    <option>Hyundai</option>
+                    <option>Mitsubishi</option>
+                    <option>Mazda</option>
+                    <option>Chevrolet</option>
+                    <option>Kia</option>
+                    <option>Nissan</option>
+                </select>
+            </div>
+
+            <div class="vehicleDropdown dropdown-spacing">
+                <label>Model</label>
+                <select required>
+                    <option value="">Select Model</option>
+                    <option>Vios</option>
+                    <option>Civic</option>
+                    <option>Corolla</option>
+                    <option>Ranger</option>
+                    <option>Accent</option>
+                    <option>Arata</option>
+                    <option>Suburban</option>
+                    <option>Carnival</option>
+                    <option>GT-R</option>
+                </select>
+            </div>
+
+            <div class="vehicleDropdown dropdown-spacing-large">
+                <label>Engine</label>
+                <select required>
+                    <option value="">Select Engine</option>
+                    <option>0.6L</option>
+                    <option>0.8L</option>
+                    <option>1.0L</option>
+                    <option>1.2L</option>
+                    <option>1.3L</option>
+                    <option>1.5L</option>
+                    <option>1.6L</option>
+                    <option>2.0L</option>
+                    <option>3.0L</option>
+                    <option>3.5L</option>
+                </select>
+            </div>
+
+            <button type="submit" class="loginButton">Save to Garage</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="footerContainer">
+        
+        <div class="footer-column">
+            <div class="footer-logo">
+                ROCK<span>AUTO</span>
+            </div>
+            <p>Auto Parts Made Easier. Find exact-fit parts for thousands of vehicles securely and quickly.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">Help Center & FAQ</a></li>
+                <li><a href="#">Track Order Status</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Shipping Information</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>About RockAuto</h3>
+            <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p class="copyright">© 2026 RockAuto Redesign Concept.</p>
+    </div>
+    
+</footer>
+
+</body>
+</html>

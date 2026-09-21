@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | RockAuto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topNavigation">
+    <div class="navCentered">
+        <a href="home.html" class="logo">
+            <img src="logo.png" alt="RockAuto Logo">
+            ROCK<span>AUTO</span>
+        </a>
+        <div class="navLinks">
+            <a href="home.html">Home</a>
+            <a href="home.html#vehicle-selector">Find Parts</a>
+            <a href="home.html#categories">Categories</a>
+            <a href="home.html#part-search">Part Number Search</a>
+            <a href="cart.html" class="cartLinks">Cart</a>
+            <a href="garage.html">My Garage</a>
+            <a href="index.html">Sign Out</a>
+        </div>
+    </div>
+</nav>
+
+<section class="section cart-section">
+    <div class="sectionHeading">
+        <p class="sectionMarks">SECURE CHECKOUT</p>
+        <h2>Complete Your Order</h2>
+        <p>Please enter your shipping and payment details below.</p>
+    </div>
+
+    <!-- The entire layout is wrapped in a form so the order summary button submits it -->
+    <form action="success.html" class="mainCartContainer">
+        
+        <!-- Left Column: Checkout Fields -->
+        <div class="cartProducts">
+            
+            <fieldset class="checkoutField">
+                <legend class="checkout-legend">Shipping Information</legend>
+                
+                <div class="formBoxRows">
+                    <div class="valuesInput">
+                        <label>First Name</label>
+                        <input type="text" required placeholder="Juan">
+                    </div>
+                    <div class="valuesInput">
+                        <label>Last Name</label>
+                        <input type="text" required placeholder="Dela Cruz">
+                    </div>
+                </div>
+
+                <div class="valuesInput">
+                    <label>Street Address</label>
+                    <input type="text" required placeholder="House number and street name">
+                </div>
+
+                <div class="formBoxRows">
+                    <div class="valuesInput">
+                        <label>City</label>
+                        <input type="text" required placeholder="e.g. Iloilo City">
+                    </div>
+                    <div class="valuesInput">
+                        <label>Zip Code</label>
+                        <input type="number" required placeholder="e.g. 5000">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="checkoutField">
+                <legend class="checkout-legend">Payment Details</legend>
+                
+                <div class="valuesInput">
+                    <label>Name on Card</label>
+                    <input type="text" required placeholder="Name exactly as it appears on card">
+                </div>
+
+                <div class="valuesInput">
+                    <label>Card Number</label>
+                    <input type="number" required placeholder="0000 0000 0000 0000">
+                </div>
+
+                <div class="formBoxRows">
+                    <div class="valuesInput">
+                        <label>Expiration Date</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="valuesInput">
+                        <label>CVV (Security Code)</label>
+                        <input type="number" required placeholder="123">
+                    </div>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <!-- Right Column: Order Summary -->
+        <div class="cartSummaryBox">
+            <h3>Order Summary</h3>
+            <div class="summaryRow">
+                <span>Items (2)</span>
+                <span>₱1,930.00</span>
+            </div>
+            <div class="summaryRow">
+                <span>Shipping</span>
+                <span>₱150.00</span>
+            </div>
+            <div class="summary-divider"></div>
+            <div class="summary-total">
+                <span>Total</span>
+                <strong>₱2,080.00</strong>
+            </div>
+            
+            <button type="submit" class="checkoutButton">Place Order</button>
+            <a href="cart.html" class="continue-button">Return to Cart</a>
+        </div>
+
+    </form>
+</section>
+
+<footer>
+    <div class="footerContainer">
+        
+        <div class="footer-column">
+            <div class="footer-logo">
+                ROCK<span>AUTO</span>
+            </div>
+            <p>Auto Parts Made Easier. Find exact-fit parts for thousands of vehicles securely and quickly.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">Help Center & FAQ</a></li>
+                <li><a href="#">Track Order Status</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Shipping Information</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>About RockAuto</h3>
+            <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p class="copyright">© 2026 RockAuto Redesign Concept.</p>
+    </div>
+    
+</footer>
+
+</body>
+</html>

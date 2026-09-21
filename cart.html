@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | RockAuto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topNavigation">
+    <div class="navCentered">
+       <a href="home.html" class="logo">
+            <img src="images/logo.png" alt="RockAuto Logo">
+            ROCK<span>AUTO</span>
+    </a>
+        <div class="navLinks">
+            <a href="home.html">Home</a>
+            <a href="home.html#vehicle-selector">Find Parts</a>
+            <a href="home.html#categories">Categories</a>
+            <a href="home.html#part-search">Part Number Search</a>
+            <a href="cart.html" class="cartLinks">Cart</a>
+            <a href="garage.html">My Garage</a>
+            <a href="index.html">Sign Out</a>
+        </div>
+    </div>
+</nav>
+
+<section class="section cartSection">
+
+    <div class="sectionHeading">
+        <p class="sectionMarks">YOUR SELECTED PARTS</p>
+        <h2>Shopping Cart</h2>
+        <p>Review your selected products before checkout.</p>
+    </div>
+
+    <div class="mainCartContainer">
+        <div class="cartProducts">
+            <div class="cartproduct">
+                <div class="cartProductImage">
+                     <img src="images/Iridium Spark Plug.png" alt="Premium Brake Pads" class="cartImg">
+                </div>
+
+                <div class="cartProductInfo">
+                    <p class="productCategory">BRAKE SYSTEM</p>
+                    <h3>Premium Brake Pads</h3>
+                    <p>Compatible replacement brake pads.</p>
+                    <span class="partNumber">Part No. BRK-1250</span>
+                </div>
+
+                <div class="cartProductQuantity">
+                    <label>Quantity</label>
+                    <div class="quantityBox">
+                        <button type="button">−</button>
+                        <span>1</span>
+                        <button type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="cartProductPrice">
+                    <p>Price</p>
+                    <strong>₱1,250.00</strong>
+                </div>
+
+                <button type="button" class="removeButton">Remove</button>
+
+            </div>
+            
+            <div class="cartproduct">
+                <div class="cartProductImage">
+                    <img src="images/Engine Air Filter.png" alt="Engine Air Filter" class="cartImg">
+                </div>
+
+                <div class="cartProductInfo">
+                    <p class="productCategory">ENGINE</p>
+                    <h3>Engine Air Filter</h3>
+                    <p>Replacement filter for clean engine airflow.</p>
+                    <span class="partNumber">Part No. FIL-0680</span>
+                </div>
+
+                <div class="cartProductQuantity">
+                    <label>Quantity</label>
+                    <div class="quantityBox">
+                        <button type="button">−</button>
+                        <span>1</span>
+                        <button type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="cartProductPrice">
+                    <p>Price</p>
+                    <strong>₱680.00</strong>
+                </div>
+
+                <button type="button" class="removeButton">Remove</button>
+            </div>
+        </div>
+
+        <div class="cartSummaryBox">
+
+            <h3>Order Summary</h3>
+            <div class="summaryRow">
+                <span>Items</span>
+                <span>2</span>
+            </div>
+
+            <div class="summaryRow">
+                <span>Subtotal</span>
+                <span>₱1,930.00</span>
+            </div>
+
+            <div class="summaryRow">
+                <span>Shipping</span>
+                <span>₱150.00</span>
+            </div>
+
+            <div class="summaryDivider"></div>
+
+            <div class="summaryTotal">
+                <span>Total</span>
+                <strong>₱2,080.00</strong>
+            </div>
+
+            <form action="checkout.html">
+                <button type="submit" class="checkoutButton btnMarginBottom">Proceed to Checkout</button>
+            </form>
+
+            <a href="home.html" class="continueButton">Continue Shopping</a>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footerContainer">
+        
+        <div class="footerColumn">
+            <div class="footerLogo">
+                ROCK<span>AUTO</span>
+            </div>
+            <p>Auto Parts Made Easier. Find exact-fit parts for thousands of vehicles securely and quickly.</p>
+        </div>
+
+        <div class="footerColumn">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="#">Help Center & FAQ</a></li>
+                <li><a href="#">Track Order Status</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Shipping Information</a></li>
+            </ul>
+        </div>
+
+        <div class="footerColumn">
+            <h3>About RockAuto</h3>
+            <ul>
+                <li><a href="#">Company Information</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footerBottom">
+        <p class="copyright">© 2026 RockAuto Redesign Concept.</p>
+    </div>
+    
+</footer>
+
+</body>
+</html>
